@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Nombre de la aplicación -->
+    <string name="app_name">GreenHouse</string>
+
+    <!-- Login -->
+    <string name="titulo_login">Invernadero Inteligente</string>
+    <string name="subtitulo_login">Control y monitoreo del invernadero</string>
+    <string name="correo_electronico">Correo electrónico</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="ingresar">INGRESAR</string>
+    <string name="sistema_control_iot">Sistema de control IoT</string>
+
+    <!-- Pantalla de monitoreo -->
+    <string name="greenhouse">GreenHouse</string>
+    <string name="monitoreo_control">Monitoreo y control del invernadero</string>
+
+    <!-- Estado -->
+    <string name="estado_sistema">Estado del sistema</string>
+    <string name="conectado">● Conectado</string>
+    <string name="desconectado">● Desconectado</string>
+
+    <!-- Sensores -->
+    <string name="monitoreo_sensores">Monitoreo de sensores</string>
+
+    <string name="temperatura">🌡️ Temperatura</string>
+    <string name="humedad_ambiental">💧 Humedad ambiental</string>
+    <string name="humedad_suelo_1">🌱 Humedad suelo 1</string>
+    <string name="humedad_suelo_2">🌱 Humedad suelo 2</string>
+    <string name="luminosidad">☀️ Luminosidad</string>
+    <string name="nivel_agua">💦 Nivel de agua</string>
+
+    <!-- Valores iniciales -->
+    <string name="valor_temperatura">-- °C</string>
+    <string name="valor_porcentaje">-- %</string>
+
+    <!-- Actuadores -->
+    <string name="control_actuadores">Control de actuadores</string>
+    <string name="bomba_agua">💧 Bomba de agua</string>
+    <string name="ventilacion">🌬️ Ventilación</string>
+
+    <!-- Estados de los switches -->
+    <string name="estado_off">OFF</string>
+    <string name="estado_on">ON</string>
+
+    <!-- Información inferior -->
+    <string name="datos_tiempo_real">Datos recibidos en tiempo real mediante el sistema IoT</string>
+
+</resources>

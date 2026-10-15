@@ -1,0 +1,29 @@
+# Archivos de Android Studio / IntelliJ
+*.iml
+.idea/
+.gradle/
+.kotlin/
+
+# Configuración local del computador
+local.properties
+/local.properties
+
+# Carpetas generadas al compilar
+build/
+*/build/
+**/build/
+
+# Archivos temporales
+captures/
+.externalNativeBuild/
+.cxx/
+.DS_Store
+
+# Archivos de entorno o secretos
+.env
+*.jks
+*.keystore
+secrets.properties
+
+# Logs
+*.log

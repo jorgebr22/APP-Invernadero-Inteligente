@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "122132802333",
+    "firebase_url": "https://invernadero-inteligente-538aa-default-rtdb.firebaseio.com",
+    "project_id": "invernadero-inteligente-538aa",
+    "storage_bucket": "invernadero-inteligente-538aa.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:122132802333:android:232b3569f4bcbfa99b4ff4",
+        "android_client_info": {
+          "package_name": "com.invernadero.appinvernaderointeligente"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbQ0isi1gStSmlW6cdMTxOxxK6hl2J50M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

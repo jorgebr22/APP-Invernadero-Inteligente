@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    android:padding="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/bg_dialog_greenhouse"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/tvIconoAcerca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="🌱"
+            android:textSize="34sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvTituloAcerca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Acerca de GreenHouse"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#1B5E20"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/tvDescripcionAcerca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GreenHouse es una pyme creada con el propósito de acercar a las personas a un mundo más limpio, natural y lleno de espacios verdes.\n\nBuscamos apoyar el cuidado de plantas y pequeños espacios naturales, tanto en hogares como en lugares públicos y privados.\n\nGreenHouse nace para ayudar a las personas a cuidar, mantener y hacer prosperar su propio mini mundo verde, promoviendo una relación más cercana con la naturaleza y el cuidado del medio ambiente."
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:lineSpacingExtra="4dp"
+            android:gravity="center"
+            android:layout_marginBottom="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btnAceptarAcerca"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ACEPTAR"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:paddingStart="24dp"
+                android:paddingEnd="24dp"
+                android:backgroundTint="#2E7D32" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
